@@ -181,7 +181,9 @@ body,
         font-size: 52px;
         font-weight: 700;
     }
-
+    .mobile-text {
+        display: block;
+    }
     @media (max-width: 991px) {
       .bg-on-tablet-mobile {
         background-color: azure;
@@ -199,7 +201,8 @@ body,
         margin-top: 14px;
       }
       .heading h1 {
-        font-weight: 600;
+        font-weight: 550;
+        font-size: 35px;
       }
       .custom {
         text-align: left;
@@ -213,8 +216,8 @@ body,
         padding: 10px;
         font-size: 20px;  
       }
-      .section h1 {
-        font-weight: 1000;
+      .mobile-text {
+        display: inline;
       } 
     }
     @media (min-width: 768px) and (max-width: 1024px) {
@@ -222,5 +225,12 @@ body,
           width: 375px;
           height: 329px;
           background-repeat: no-repeat;
+      }
+      .section h1 {
+        font-weight: 600;
+        font-size: 40px;
+      }
+      .mobile-text {
+        display: inline;
       }       
     }
